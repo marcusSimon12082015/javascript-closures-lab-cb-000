@@ -18,8 +18,8 @@ function createAnimal(animalType){
   return function(deadlyDevice){
     return{
       animalType,
-      deadlyDevice  
+      deadlyDevice
     };
   }
-  
+
 }
