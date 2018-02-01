@@ -13,3 +13,7 @@ function bumpCounter(){
     getBumps
   };
 }
+
+function createAnimal(animalType){
+    
+}
