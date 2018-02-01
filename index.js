@@ -15,7 +15,7 @@ function bumpCounter(){
 }
 
 function createAnimal(animalType){
-  return function(deadlyDevice){
+  return function device(deadlyDevice){
     return{
       animalType,
       deadlyDevice
@@ -24,5 +24,6 @@ function createAnimal(animalType){
 }
 
 var sharkCreator = createAnimal('Shark');
-var sharkWithFrickinLaserbeam = createAnimal('Shark');
+
+var sharkWithFrickinLaserbeam = 
 var sharkWithFrickinCannon = createAnimal('Shark');
